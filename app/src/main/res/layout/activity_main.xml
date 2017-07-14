@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.tuquyet.customview_demo_slider.MainActivity">
+
+    <com.example.tuquyet.customview_demo_slider.SlideView
+        android:id="@+id/slideView1"
+        android:layout_margin="@dimen/dp_5"
+        android:layout_width="match_parent"
+        app:slideBackground="@color/colorAccent"
+        android:layout_height="wrap_content"/>
+    <com.example.tuquyet.customview_demo_slider.SlideView
+        android:id="@+id/slideView2"
+        android:layout_margin="@dimen/dp_5"
+        android:layout_width="match_parent"
+        app:slideBackground="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+    <com.example.tuquyet.customview_demo_slider.SlideView
+        android:id="@+id/slideView3"
+        android:layout_margin="@dimen/dp_5"
+        android:layout_width="match_parent"
+        app:slideBackground="@color/colorYellow"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
